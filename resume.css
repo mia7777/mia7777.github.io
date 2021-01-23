@@ -40,7 +40,7 @@ a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }
-p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
+p.enlarge { font-size: 150%; padding-right: 6.5em; line-height: 24px; }
 p.enlarge span { color: #000 }
 .contact-info { margin-top: 7px; }
 .first h2 { font-style: italic; }
@@ -57,13 +57,11 @@ a#pdf:hover { background: #222; }
 .job p { margin: 0.75em 0 3em 0; }
 
 .last { border: none; }
-.skills-list {  }
-.skills-list ul { margin: 0; }
-.skills-list li { margin: 3px 0; padding: 3px 0; }
-.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.enlarge p {font-size: 15px;}
 .talent { width: 32%; float: left }
 .talent h2 { margin-bottom: 6px; }
-
+.talent li {list-style-type: disc; font-size: 15px;}
+.enlarge p{font-size: 20px;}
 #srt-ttab { margin-bottom: 100px; text-align: center;  }
 #srt-ttab img.last { margin-top: 20px }
 
