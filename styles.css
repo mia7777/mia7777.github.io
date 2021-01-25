@@ -1,3 +1,4 @@
+  
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
 *{
@@ -157,6 +158,12 @@ color: #fff;
 .hobbies .li_wrap{
 	border: 2px solid #fff;
 }
+
+
+.hobbies .li_wrap:hover .icon a {
+	color: #000000;
+}
+
 
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text{
