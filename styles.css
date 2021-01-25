@@ -19,6 +19,7 @@ color: #fff;
 
 
 
+
 .resume{
 	width: 1000px;
 	background: #fff;
@@ -43,7 +44,8 @@ color: #fff;
 }
 
 .left .img_holder img{
-	width: 200px;
+	width: 250px;
+	
 	border-radius: 30px;
 }
 
@@ -227,6 +229,7 @@ color: #fff;
 	font-weight: 700;
 	letter-spacing: 2px;
 	color: #990000;
+	
 }
 
 .right_inner .li_wrap .info_com{
