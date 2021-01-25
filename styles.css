@@ -5,23 +5,24 @@
 	padding: 0;
 	list-style: none;
 	box-sizing: border-box;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Georgia', sans-serif;
 }
 
 body{
-	background: linear-gradient(to right, #3525af, #9153c9);
+	background: linear-gradient(to right, #ff6666, #ffcccc);
 }
 
 .resume{
-	width: 800px;
+	width: 1000px;
 	background: #fff;
+	margin-bottom: 100px;
 	margin: 25px auto;
 	display: flex;
 }
 
 .left{
-	background: #292b2f;
-	width: 250px;
+	background: #666666;
+	width: 350px;
 	padding: 0 20px;
 }
 
@@ -49,7 +50,7 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	padding-bottom: 10px;
-	color: #3525af;
+	color: #ff6666;
 	position: relative;
 	text-align: right;
 	margin-bottom: 15px;
@@ -62,18 +63,18 @@ body{
 	right: 0;
 	width: 50px;
 	height: 3px;
-	background: #3525af;
+	background: #000000;
 }
 
 .left .icon{
-	font-size: 20px;
-	color: #9153c9;
+	font-size: 25px;
+	color: #000000;
 }
 
 .left .text{
-	color: #9153c9;
-	text-transform: uppercase;
-	font-size: 13px;
+	color: #000000;
+	
+	font-size: 15px;
 }
 
 .contact .li_wrap{
@@ -109,8 +110,8 @@ body{
 
 .skills .li_wrap,
 .hobbies .li_wrap{
-	width: 100px;
-	height: 100px;
+	width: 119px;
+	height: 119px;
 	margin-bottom: 15px;
 	border-radius: 15px;
 	display: flex;
@@ -121,6 +122,7 @@ body{
 
 .skills .li_wrap{
 	background: #fff;
+	
 }
 
 .skills .li_wrap .text,
@@ -143,11 +145,11 @@ body{
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-	color: #9153c9;
+	color: #000000;
 }
 
 .header{
-	background: #292b2f;
+	background: #666666;
 	padding: 15px 30px;
 	color: #fff;
 	height: 240px;
@@ -157,7 +159,7 @@ body{
 	font-size: 52px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #3525af;
+	color: #ff6666;
 }
 
 .header .role{
@@ -186,7 +188,7 @@ body{
 
 .right_inner .li_wrap .date {
     width: 125px;
-    color: #9153c9;
+    color: #ff6666;
 }
 
 .right_inner .li_wrap .info{
@@ -199,7 +201,7 @@ body{
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 2px;
-	color: #9153c9;
+	color: #ff4d4d;
 }
 
 .right_inner .li_wrap .info_com{
@@ -219,7 +221,7 @@ body{
 	left: 0;
 	width: 10px;
 	height: 10px;
-	background: #9153c9;
+	background: #ff3333;
 	border-radius: 50%;
 }
 
@@ -230,5 +232,5 @@ body{
 	left: 4px;
 	width: 2px;
 	height: 90%;
-	background: #9153c9;
+	background: #ff3333;
 }
