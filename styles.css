@@ -1,5 +1,5 @@
   
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
 
 *{
 	margin: 0;
@@ -10,7 +10,7 @@
 }
 
 body{
-	background: linear-gradient(to right, #ffb3b3, #ffcccc);
+	background: linear-gradient(to right, #ebe2e2, #f1cccc);
 }
 
 a {
@@ -30,7 +30,7 @@ color: #fff;
 }
 
 .left{
-	background: #1a0000;
+	background: #700505;
 	width: 350px;
 	padding: 0 20px;
 }
@@ -183,7 +183,7 @@ color: #fff;
 }
 
 .header{
-	background: #1a0000;
+	background: #700505;
 	padding: 15px 30px;
 	color: #fff;
 	height: 240px;
